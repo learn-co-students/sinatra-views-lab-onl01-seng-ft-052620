@@ -7,3 +7,8 @@ require_relative './config/environment'
 task :console do
   Pry.start
 end
+
+dask :sh do
+  puts "shotgun"
+  system "shotgun"
+end
