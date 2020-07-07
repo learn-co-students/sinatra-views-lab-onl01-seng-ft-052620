@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Sinatra MVC</title>
+  </head>
+
+  <body>
+    <% day = Date.today.strftime("%A") %>
+    <% monthday = Date.today.strftime("%B %d") %>
+    <% year = Date.today.strftime("%Y") %>
+    <p><%= "The date is #{day}, #{monthday}, #{year}" %></p>
+  </body>
+</html>
